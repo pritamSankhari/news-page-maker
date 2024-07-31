@@ -11,10 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
   <!-- <script type="text/javascript" src="assets/js/sketches.js?v<?php echo uniqid();?>"></script> -->
-  <link rel="stylesheet" type="text/css" href="http://192.168.5.234/news/chanakyaitalic/stylesheet.css" charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="http://192.168.5.234/news/chanakyauni/stylesheet.css" charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="http://192.168.5.234/news/chanakyaunibold/stylesheet.css" charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="http://192.168.5.234/news/chanakyaunibolditalic/stylesheet.css" charset="utf-8" />
+  
   <style type="text/css">
     *{
       margin: 0 !important;
