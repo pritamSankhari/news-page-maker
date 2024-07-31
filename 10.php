@@ -11,7 +11,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
   <!-- <script type="text/javascript" src="assets/js/sketches.js?v<?php echo uniqid();?>"></script> -->
-  
+  <link rel="stylesheet" type="text/css" href="http://192.168.5.234/news/chanakyaitalic/stylesheet.css" charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="http://192.168.5.234/news/chanakyauni/stylesheet.css" charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="http://192.168.5.234/news/chanakyaunibold/stylesheet.css" charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="http://192.168.5.234/news/chanakyaunibolditalic/stylesheet.css" charset="utf-8" />
   <style type="text/css">
     *{
       margin: 0 !important;
@@ -339,7 +342,7 @@
                 <input type="checkbox" name="body_fieldset" value="body" checked>
               </div>
 
-              <div style="padding:10px;">
+              <div style="padding:10px;display: none;">
                 <label>How many columns need</label>  
                 <select name="cols">
                   <option value="2" selected>2</option>
@@ -347,7 +350,7 @@
                   <option value="4">4</option>
                 </select>
               </div>
-              <div style="padding:10px;">
+              <div style="padding:10px;display: none;">
                 <label>Border</label>
                 <input type="checkbox" name="border_fieldset" value="newsBorder">
               </div>
@@ -368,7 +371,7 @@
                 <label>Y1:</label>
                 <input type="number" style="width:40px;" name="y1">
               </div>
-              <div style="padding: 10px;">
+              <div style="padding: 10px;display: none;">
                 <label>X2:</label>
                 <select style="width:40px;" name="x2">
                   <option>---</option>
@@ -388,7 +391,7 @@
               <div style="padding: 10px;">
                 <button id="create_news_div">Create a new block</button>
               </div>
-              <div style="padding: 10px;">
+              <div style="padding: 10px;display: none;">
                 <label>News added</label>
                 <select name="news_added_list">
                   <option value="">--SELECT--</option>
